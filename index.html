@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <!-- Prevent XSS attacks by specifying the sources of content -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline'; frame-src https://www.youtube.com https://*.youtube.com;">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />                       <!-- No longer necessary for modern browsers -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />      <!-- Control the zooming and scaling of the webpage on mobile devices -->
+        <meta name="description" content="SOMEONE's portfolio website." />        <!-- Provide a brief description of the webpage for search engines -->
+        <meta name="keywords" content="SOMEONE, Intern, Maarif, IUS" />           <!-- Not as important as it used to be -->
+        <meta name="copyright" content="SOMEONE Co." />                           <!-- Not essential for SEO or functionality -->
+        <meta name="referrer" content="no-referrer" />                                <!-- Control the referrer policy for privacy reasons -->
+        <meta name="robots" content="noindex, nofollow" />                                <!-- Specify instructions for search engine crawlers (noindex, nofollow) -->
+        <meta name="theme-color" content="#FF00FF" />                                 <!-- Specify the theme color for mobile devices -->
+        <meta name="author" content="SOMEONE" />                                  <!-- Not essential for SEO or functionality -->
+        <meta charset="UTF-8" />                                                      <!-- Specify the character encoding for the webpage -->
+        <!-- <link rel="alternate" hreflang="en-uk" href="#"> -->                     <!-- Specify an alternative language version of the webpage (if applicable) -->
+        <!-- <link rel="canonical" href="#" /> -->
+        <link rel="stylesheet" type="text/css" href="CSS/reset.css" />                <!-- Link to the CSS reset file -->
+        <link rel="stylesheet" type="text/css" href="CSS/style.css" />                <!-- Link to the main CSS file -->
+        <link rel="icon" href="IMGs/favicon_xv.ico" />                                <!-- Link to the favicon/website's icon -->
+        <title>SOMEONE</title>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header id="site-header">
+            <!-- NAV BAR -->
+            <nav id="nav-bar">
+                <h1 id="logo">SOME ONE</h1>
+                <img id="nav-logo" src="IMGs/xv.png" alt="XV Logo"/>
+                <ul id="nav-menu">
+                    <li class="nav-item"><a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Home</a></li>
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- HERO -->
+            <div id="hero">
+                <section id="hero-about">
+                    <h1>SOMEONE'S Porfolio</h1>
+                    <article id="about-paragraph">
+                        <p style="text-align: center;">Student of <strong><abbr title="International University of Sarajevo">IUS</abbr></strong>&nbsp;&nbsp;&nbsp;<em>and &quot;&amp;&quot;</em>&nbsp;&nbsp;&nbsp;<strong>BSc in CSE</strong>.</p>
+                        <p>Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat.</p>
+                        <p style="text-align: center;">CO<sub>2</sub> || E-MC<sup>2</sup><abbr title="World Health Organization">WHO</abbr> consectetur adipiscing elit.</p>
+                    </article>
+                    <button type="button" href="#" class="CTA" aria-label="Learn More" aria-labelledby="CTA">Learn More</button>
+                </section>
+            </div>
+        </header>
+        <!-- EASTER EGG START -->
+        <div id="hidden-message">USE A SERIOUS DEVICE !!!</div>
+        <!-- EASTER EGG END -->
+        <!-- MAIN -->
+        <main id="main-body">
+            <!-- PORTFOLIO -->
+            <section id="portfolio">
+                <h1>Portfolio</h1>
+                <div id="portfolio-container">
+                    <!-- PORT I -->
+                    <article class="portfolio-cols">
+                        <header>
+                            <h3>PORT I</h3>
+                        </header>
+                        <img src="IMGs/image.jpg" alt="#" />
+                        <footer class="portfolio_footer">
+                            <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan et orci quis
+                                    accumsan. In hac habitasse platea dictumst. Sed non lacus molestie nulla elementum
+                                    cursus. Aliquam erat volutpat
+                                </p>
+                        </footer>
+                    </article>
+                    <!-- PORT II -->
+                    <article class="portfolio-cols">
+                            <header>
+                                <h3>PORT II</h3>
+                            </header>
+                            <img src="IMGs/image.jpg" alt="#" />
+                            <footer class="portfolio_footer">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan et orci quis
+                                    accumsan. In hac habitasse platea dictumst. Sed non lacus molestie nulla elementum
+                                    cursus. Aliquam erat volutpat
+                                </p>
+                            </footer>
+                        </article>
+                    <!-- PORT III -->
+                    <article class="portfolio-cols">
+                        <header>
+                            <h3>PORT III</h3>
+                        </header>
+                        <img src="IMGs/image.jpg" alt="#" />
+                        <footer class="portfolio_footer">
+                            <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan et orci quis
+                                    accumsan. In hac habitasse platea dictumst. Sed non lacus molestie nulla elementum
+                                    cursus. Aliquam erat volutpat
+                                </p>
+                        </footer>
+                    </article>
+                </div>
+            </section>
+            <a rel=“nofollow” href=“https://www.apple.com”>Apple</a>
+            <!-- YOUTUBE -->
+            <section id="yt">
+                    <h1>Youtube Video</h1>
+                    <div class="row">
+                    <div class="videoframe">
+                        <iframe class="video"
+                        src="https://www.youtube.com/embed/00d4vusuE2U?si=xO_JUaBU1hjYGViM"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                        loading="lazy"></iframe>
+                    </div>
+                </div>
+            </section>
+            <!-- CONTACT -->
+            <section id="contact">
+                <form id="contact-form" method="post" action="#" novalidate>
+                    <h1>Get in Touch</h1>
+                    <p>Please fill out the form below to send us a message.</p>
+                    <!-- Name Field -->
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <bdi><input type="text" id="name" name="name" required placeholder="Your Name *" maxlength="50" aria-label="Name" autocomplete="name"></bdi>
+                    </div>
+                    <!-- Email Field -->
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="your@email.com *" maxlength="50" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" aria-label="Email" autocomplete="email">
+                    </div>
+                    <!-- Phone Field -->
+                    <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" maxlength="15" aria-label="Phone Number" autocomplete="tel">    <!-- pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" // pattern="^(\(\d{3}\)\s?|\d{3}[-.\s]?)(\d{3}[-.\s]?)\d{4}$" -->
+                    </div>
+                    <!-- Subject Field -->
+                    <div class="form-group">
+                        <label for="subject">Reason For Contact:</label>
+                        <select id="subject" name="subject" required autocomplete="off">
+                            <option value="" disabled selected>Select Reason for Contact</option>
+                            <option value="inquiry">Inquiry</option>
+                            <option value="feedback">Feedback</option>
+                        </select>
+                    </div>
+                    <!-- Message Field -->
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <bdi><textarea id="message" name="message" required placeholder="Your message here... *" maxlength="1000" rows="6" aria-label="Message" autocomplete="off"></textarea></bdi>
+                    </div>
+                    <!-- Submit Button -->
+                    <button type="submit" value="send" class="CTA" aria-label="Send Message" aria-labelledby="CTA">Send Message</button>
+                    <!-- Error Message Display -->
+                    <div id="error-message" style="display: none; color: red;"></div>
+                </form>
+            </section>
+        </main>
+        <!-- FOOTER -->
+        <footer id="site-footer">
+            <address>
+                <strong>SOMEONE &copy;</strong><br />
+                Hrasnička cesta 15<br />
+                Ilidža, Sarajevo, 71210
+            </address>
+            <ul>
+                <li><a href="mailto:your.email@example.com" aria-label="Email SOMEONE">Email: your.email@example.com</a></li>
+                <li><a href="tel:+1234567890" aria-label="Call SOMEONE">Phone: +1 (234) 567-890</a></li>
+                <li><a href="https://linkedin.com/in/yourprofile" aria-label="Visit LinkedIn profile">LinkedIn</a></li>
+                <li><a href="https://twitter.com/yourprofile" aria-label="Visit Twitter profile">Twitter</a></li>
+            </ul>
+        </footer>
+        <!-- SCRIPTS -->
+        <script src="JS/scripts.js"></script>
+    </body>
+</html>
