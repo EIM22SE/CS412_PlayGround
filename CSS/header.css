@@ -1,0 +1,59 @@
+#nav-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    margin-left: 10.5px;
+}
+
+#nav-logo {
+    height: 3em;
+    object-fit: cover;
+}
+
+#nav-menu {
+    display: flex;
+    align-items: center;
+    margin-right: 10.5px;
+}
+
+.nav-item {
+    list-style: none;
+    padding: 0 10.5px;
+    line-height: 3.3em;
+}
+#nav-menu .nav-item:hover {
+    background-color: var(--grey);
+}
+
+#hero {
+    width: 100%;
+    padding: 10.5px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: url("../IMGs/hero.webp") center center/cover no-repeat;
+}
+
+#hero-about {
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(255, 255, 255, 0.3); */
+}
+
+#about-paragraph {
+    width: 100%;
+    height: 50%;
+}
+
+#about-paragraph p {
+    margin: auto;
+    width: clamp(15.5em, 50%, 25.5em);
+    padding: 0 1em;
+    text-align: justify;
+}

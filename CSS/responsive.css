@@ -1,0 +1,92 @@
+@media (max-width: 832px) {
+    #portfolio-container,
+    #skills-container,
+    #q-container {
+        flex-direction: column;
+    }
+
+    .portfolio-cols,
+    .skills-cols,
+    .q-cols {
+        margin: 0.75em 0;
+    }
+    .portfolio-cols:first-child,
+    .skills-cols:first-child,
+    .d-cols:first-child {
+        margin: 0 0 0.75em 0;
+    }
+    .portfolio-cols:last-child,
+    .skills-cols:last-child,
+    .q-cols:last-child {
+        margin: 0.75em 0 0 0;
+    }
+}
+
+@media (max-width: 626px) {
+    #nav-logo {
+        display: none;
+    }
+
+    .form-group {
+        padding: 0 15px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        height: auto;
+    }
+}
+
+@media (max-width: 520px) {
+    #logo {
+        display: none;
+    }
+    
+    #nav-bar {
+        height: 3em;
+    }
+
+    #nav-menu {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-item {
+        flex: 1;
+        text-align: center;
+    }
+}
+
+
+
+/*
+#hidden-message {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: red;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    position: fixed;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+}
+
+@media (max-width: 307px) {
+    #hidden-message {
+        display: flex;
+    }
+    body {
+        overflow: hidden;
+    }
+}
+*/

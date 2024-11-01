@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url("qualifications.css");
+@import url("responsive.css");
+@import url("portfolio.css");
+@import url("contact.css");
+@import url("skills.css");
+@import url("header.css");
+@import url("button.css");
+
+
+
+/*
+@media screen and (max-width: 768px) {
+    #portfolio,
+    #skills-container,
+    #contact {
+        grid-column: span 1;
+    }
+}
+*/

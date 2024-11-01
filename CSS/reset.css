@@ -1,0 +1,69 @@
+:root {
+    --dark-white: #F5F5F5;
+    --light-white: #FAFAFA;
+
+    --red: #D90909;
+
+    --dark-blue: #0244C9;
+    --light-blue: #0068FF;
+
+    --grey: #AFAFAF;
+
+    --dark-black: #111111;
+    --light-black: #151515;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    color: var(--dark-black);
+    font-family: "Lexend Deca", sans-serif;
+}*, *::before, *::after {box-sizing: border-box;}
+
+#site-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main-body {
+    display: grid;
+    padding: 20px;
+    grid-gap: 20px;
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+#site-footer {
+    padding: 15px;
+    text-align: center;
+    border-top: 3px solid var(--light-black);
+}
+
+li {list-style: none;}
+
+strong {color: var(--red);}
+
+section h1 {color: var(--dark-blue);}
+
+body {background-color: var(--dark-white);}
+
+code {font-family: 'Courier New', Courier, monospace;}
+
+p, a, abbr, em, strong, sub, sup, blockquote, code, li {font-size: 1em;}
+
+a{text-decoration: none;}
+a:link {color: var(--light-blue);}
+a:hover {color: var(--red);}
+a:active {color: darkgreen;}
+a:visited {color: purple;}
+
+h6 {font-size: 1.25em;}
+h5 {font-size: 1.4375em;}
+h4 {font-size: 1.625em;}
+h3 {font-size: 1.8125em;}
+h2 {font-size: 2em;}
+h1 {font-size: 2.1875em;}
