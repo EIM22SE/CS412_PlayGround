@@ -35,7 +35,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background: url("../IMGs/hero.webp") center center/cover no-repeat;
+    background: url("https://placehold.co/1200x400") center center/cover no-repeat;
 }
 
 #hero-about {
